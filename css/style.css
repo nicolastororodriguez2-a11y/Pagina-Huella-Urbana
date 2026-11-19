@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+    color: navy;
+}
+header{
+    background-color: darkgreen;
+}
+p{
+    font-size: 20pt;
+}
+#eslogan{
+    color: goldenrod;
+    font-size: 30pt;
+}
+.parrafo{
+    background-color: lawngreen;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
