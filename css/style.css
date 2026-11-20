@@ -1,24 +1,108 @@
+:root{
+    --gris: #bbd8b3;
+    --amarillo: #F3B61F;
+    --verdeocuro: #091E05;
+    --azulmarino: #083D77;
+    --rojorubi: #A20021;
+}
+
+
+
 body{
-    background-color: bisque;
-    color: navy;
+    /* background-image: url(../imagenes/guarderia.jpg); para poner una img de fondo */
+    background-color: var(--gris);
+    color: var(--verdeocuro);
+    margin: auto;
 }
 header{
-    background-color: darkgreen;
+    background-color: var(--rojorubi);
 }
-p{
-    font-size: 20pt;
+header img{
+    width: 300px;
+    height: 200px;
 }
-#eslogan{
-    color: goldenrod;
-    font-size: 30pt;
+nav ul{
+    list-style: none;
+    text-align: right;
 }
-.parrafo{
-    background-color: lawngreen;
+nav li{
+    display: inline-block;
+    margin: 20px;
 }
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "BLED" 0,
+    "JITT" 0,
+    "ROND" 0;
+    font-size: 13pt;
+}
+#inicio{
+    text-align: center;
+}
+#inicio img{
+    width: 500;
+    height: 600;
+    border-radius: 30px;
+}
+h1,h2,h3{
+    color: var(--verdeocuro);
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "BLED" 0,
+    "JITT" 0,
+    "ROND" 0;
+    font-size: 13pt;
+}
+#titulo{
+    font-size: 4rem;
+}
+article{
+    background-color: white;
+    padding: 20px 100px;
+    margin: 30px;
+    border: 2px var(--rojorubi);
+    border-radius: 15px;
+}
+article img{
+    border-radius: 15px;
+}
+.boton{
+    display: inline-block;
+    background-color: var(--amarillo);
+    color: var(--azulmarino);
+    padding: 12px 20px;
+    margin: 20px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "BLED" 0,
+    "JITT" 0,
+    "ROND" 0;
+    font-size: 13pt;
+}
+.boton:hover{
+    background-color: var(--azulmarino);
+    color: var(--verdeocuro);
+}
+
 img{
+    max-width: 100%;
     width: 300px;
     height: 300px;
-}
-main{
-    background-color: cornflowerblue;
 }

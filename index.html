@@ -5,26 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huella Urbana</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 <body>
     <header>
         <img src="imagenes/logo.png" alt="logo de huella urbana">
         <nav>
             <ul>
-                <li><a href="#inicio">INICIO</a></li>
-                <li><a href="#servicios">SERVICIOS</a></li>
-                <li><a href="#planes">PLANES</a></li>
-                <li><a href="#paseadores">PASEADORES</a></li>
-                <li><a href="#contacto">CONTACTO</a></li>
+                <li><a href="#inicio" class="boton">INICIO</a></li>
+                <li><a href="#servicios" class="boton">SERVICIOS</a></li>
+                <li><a href="#planes" class="boton">PLANES</a></li>
+                <li><a href="#paseadores" class="boton">PASEADORES</a></li>
+                <li><a href="#contacto" class="boton">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="inicio">
-            <h1>Huella Urbana</h1>
+            <h1 id="titulo">Huella Urbana</h1>
             <p id="eslogan">Paseos seguros y felices para tu mascota mientras, tu cumples con tu dia.</p>
-            <a href="#contacto">AGENDA UN PASEO</a>
+            <a href="#contacto" class="boton">AGENDA UN PASEO</a><br>
             <img src="imagenes/principal.jpg" alt="Paseos de mascotas">
+        </section>
+        <section id="video">
+            <iframe width="315" 
+                height="576"
+                src="https://www.youtube.com/embed/tiCF3aXtGvM" 
+                title="Las funciones de un paseador de perros en Nueva York www.bienvenidosanuevayork."
+                frameborder="0" 
+                allow="accelerometer; 
+                autoplay; clipboard-write;
+                encrypted-media; gyroscope; 
+                picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
         </section>
         <section id="servicios">
             <article>
@@ -80,6 +97,18 @@
                 <p class="parrafo">Estudiante de veterinaria ideal para mascotas grandes.</p>
             </article>
         </section>
+        <section id="contacto">
+            <h2>Contactanos</h2>
+            <p>Escribenos y agenda el primer paseo para tu mascota.</p>
+            <ul>
+                <li><a href="mailto:contacto@huellaurbana.com">contacto@huellaurbana.com</a></li>
+                <li><a href="https://wwe.instagram.com/" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
     </main>
+    <footer>
+        <p>&copy; 2026 Huella Urbana. Todos los derechos reservados</p>
+        <p>Fotos <a href="https://www.pexels.com" target="_blank">Pexels</a></p>
+    </footer>
 </body>
 </html>
