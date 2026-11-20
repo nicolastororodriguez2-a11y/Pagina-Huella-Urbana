@@ -73,9 +73,11 @@ article{
     margin: 30px;
     border: 2px var(--rojorubi);
     border-radius: 15px;
+    text-align: center;
 }
 article img{
     border-radius: 15px;
+    text-align: center;
 }
 .boton{
     display: inline-block;
